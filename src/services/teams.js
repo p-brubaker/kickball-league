@@ -13,3 +13,18 @@ export async function getTeamById(id) {
     .single();
   return parseData(request);
 }
+
+export async function addTeam({ name, city, state }) {
+  const request = await client.from('teams').insert({name, city, state})
+  return parseData(request)
+}
+
+export async function updateTeam({ id, name, city, state }) {
+  const request = await client.from('teams').update({ name, city, state }).match({ id })
+  return parseData(request)
+}
+
+export async function deleteTeamById(id) {
+  const request = await client.from('teams').delete().match({ id })
+  return parseData(request)
+}
