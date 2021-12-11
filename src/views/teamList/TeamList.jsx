@@ -5,7 +5,7 @@ import './TeamList.css'
 
 export default function TeamList() {
     const [teams, setTeams] = useState([])
-    const [didDelete, setDidDelete] = useState(false)
+    const [didDeleteToggle, setDidDeleteToggle] = useState(false)
 
     useEffect(() => {
         async function get() {
@@ -13,12 +13,11 @@ export default function TeamList() {
             setTeams(teams)
         }
         get()
-    }, [didDelete])
+    }, [didDeleteToggle])
 
     async function handleDelete(id) {
         await deleteTeamById(id)
-        setDidDelete(true)
-        setDidDelete(false)
+        setDidDeleteToggle(prev => !prev)
     }
 
     return (
