@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the header with links to home, players, teams 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <a
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      href="/players/view"
+    >
+      Players
+    </a>
+    <a
+      href="/teams/view"
+    >
+      Teams
+    </a>
+  </div>
+</div>
+`;
