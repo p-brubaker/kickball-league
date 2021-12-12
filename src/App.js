@@ -8,13 +8,14 @@ import UpdateTeam from './components/teams/UpdateTeam'
 import UpdatePlayer from './components/players/UpdatePlayer'
 import PlayerDetail from './views/playerDetail/PlayerDetail'
 import CreatePlayer from './components/players/CreatePlayer'
-
+import Header from './layout/header/Header'
 import Home from './views/home/Home'
 
 function App() {
   return (
     <div className="App">
       <Router>
+      <Header />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/teams/view" component={TeamList}/>

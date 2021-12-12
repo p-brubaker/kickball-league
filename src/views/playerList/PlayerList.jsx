@@ -8,16 +8,21 @@ export default function PlayerList({ teamID = null }) {
     const [deleted, setDeleted] = useState([])
 
     useEffect(() => {
+        let mounted = true
         async function get() {
             const allPlayers = await getPlayers()
-            if (teamID) {
+            console.log(allPlayers)
+            if (mounted && teamID) {
                 setPlayers(allPlayers.filter(player => {
                     return player.team_id === teamID
                 })) 
-            } else setPlayers(allPlayers)
+            } else if (mounted) setPlayers(allPlayers)
         }
         get()
-    }, [players, teamID, deleted])
+        return function cleanup() {
+            mounted = false
+        }
+    }, [teamID, deleted])
 
     async function handleDelete(id) {
         const res = await deletePlayerById(id)
