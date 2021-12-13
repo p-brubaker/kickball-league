@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render player details 1`] = `
+<div>
+  <div
+    class="player-detail"
+  >
+    <p>
+      Name:
+       undefined
+    </p>
+    <p>
+      Position:
+       undefined
+    </p>
+    <p>
+      Team:
+       undefined
+    </p>
+  </div>
+</div>
+`;

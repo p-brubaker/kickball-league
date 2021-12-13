@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render team details and a list of that teams players 1`] = `
+<div>
+  <div
+    class="team-detail"
+  >
+    <a
+      href="/teams/update/undefined"
+    >
+      Update this team
+    </a>
+    <a
+      href="/players/add/undefined"
+    >
+      Add a player to this team
+    </a>
+    <p>
+      Rose City Roasters
+    </p>
+    <p>
+      City: 
+      Portland
+    </p>
+    <p>
+      State: 
+      Oregon
+    </p>
+    <div
+      class="players-container"
+    >
+      <h1>
+        Players
+      </h1>
+      <div
+        class="players-list"
+      />
+    </div>
+  </div>
+</div>
+`;

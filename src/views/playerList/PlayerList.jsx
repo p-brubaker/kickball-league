@@ -11,7 +11,6 @@ export default function PlayerList({ teamID = null }) {
         let mounted = true
         async function get() {
             const allPlayers = await getPlayers()
-            console.log(allPlayers)
             if (mounted && teamID) {
                 setPlayers(allPlayers.filter(player => {
                     return player.team_id === teamID
@@ -43,7 +42,7 @@ export default function PlayerList({ teamID = null }) {
                     <div className="player" key={player.id}>
                         <Link to={`/players/view/${player.id}`}>{player.name}</Link>
                         <Link to={`/players/update/${player.id}`}>Update</Link>
-                        <button onClick={() => handleDelete(player.id)}>DELETE</button>
+                        <button aria-label="delete-player" onClick={() => handleDelete(player.id)}>DELETE</button>
                     </div>
                 ))}
                 {deleted.map(deletedPlayer => (
