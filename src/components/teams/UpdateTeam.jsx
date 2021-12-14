@@ -30,7 +30,7 @@ export default function UpdateTeam() {
             <p>{updatedTeam.name}</p>
             <p>{updatedTeam.city}</p>
             <p>{updatedTeam.state}</p>
-            <Link to="teams/view">Back to teams list</Link>
+            <Link to="/teams/view">Back to teams list</Link>
         </div>
     ) : (
         <form onSubmit={handleSubmit}>

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the home component 1`] = `
+<div>
+  <div
+    class="home"
+  >
+    <h1>
+      Kickball manager
+    </h1>
+  </div>
+</div>
+`;

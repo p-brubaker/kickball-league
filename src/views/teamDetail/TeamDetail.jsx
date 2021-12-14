@@ -14,10 +14,11 @@ export default function TeamDetail() {
     return team ? (
         <div className="team-detail">
             <Link to={`/teams/update/${id}`}>Update this team</Link>
+            <Link to={`/players/add/${id}`}>Add a player to this team</Link>
             <p>{team.name}</p>
             <p>City: {team.city}</p>
             <p>State: {team.state}</p>
-            <PlayerList teamPlayers={team.players} />
+            <PlayerList teamID={team.id} />
         </div>
     ) : <p>Loading...</p>
 }

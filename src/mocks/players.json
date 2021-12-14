@@ -1,0 +1,135 @@
+[
+    {
+        "id": 33,
+        "created_at": "2021-12-12T00:50:01.685736+00:00",
+        "name": "Alotta Katz",
+        "position": "Shortstop",
+        "team_id": 2
+    },
+    {
+        "id": 23,
+        "created_at": "2021-12-12T00:44:13.09703+00:00",
+        "name": "Angus Filch",
+        "position": "Second Base",
+        "team_id": 1
+    },
+    {
+        "id": 38,
+        "created_at": "2021-12-12T00:52:48.035008+00:00",
+        "name": "Art C. Booker",
+        "position": "Pitcher",
+        "team_id": 2
+    },
+    {
+        "id": 26,
+        "created_at": "2021-12-12T00:45:38.632737+00:00",
+        "name": "Avery Hamisch-Pinchot",
+        "position": "Third Base",
+        "team_id": 1
+    },
+    {
+        "id": 32,
+        "created_at": "2021-12-12T00:49:48.555179+00:00",
+        "name": "Blaise Greene",
+        "position": "Pitcher",
+        "team_id": 2
+    },
+    {
+        "id": 37,
+        "created_at": "2021-12-12T00:52:30.492163+00:00",
+        "name": "Dan D. Brewer",
+        "position": "Second Base",
+        "team_id": 2
+    },
+    {
+        "id": 28,
+        "created_at": "2021-12-12T00:47:03.140103+00:00",
+        "name": "Eden Goode",
+        "position": "Center Field",
+        "team_id": 1
+    },
+    {
+        "id": 22,
+        "created_at": "2021-12-12T00:43:53.617688+00:00",
+        "name": "Freida Burgher",
+        "position": "First Base",
+        "team_id": 1
+    },
+    {
+        "id": 30,
+        "created_at": "2021-12-12T00:48:15.266913+00:00",
+        "name": "Jerry A. Trichardt",
+        "position": "Left Field",
+        "team_id": 1
+    },
+    {
+        "id": 25,
+        "created_at": "2021-12-12T00:44:50.704566+00:00",
+        "name": "Kerry S. Mayo",
+        "position": "Right Field",
+        "team_id": 1
+    },
+    {
+        "id": 36,
+        "created_at": "2021-12-12T00:51:22.512555+00:00",
+        "name": "Kit Schafmann",
+        "position": "Shortstop",
+        "team_id": 2
+    },
+    {
+        "id": 24,
+        "created_at": "2021-12-12T00:44:34.446881+00:00",
+        "name": "Pearl O. Insley-Charles",
+        "position": "Shortstop",
+        "team_id": 1
+    },
+    {
+        "id": 31,
+        "created_at": "2021-12-12T00:49:33.288408+00:00",
+        "name": "Penny Loafer",
+        "position": "Right Field",
+        "team_id": 2
+    },
+    {
+        "id": 39,
+        "created_at": "2021-12-12T00:53:23.223897+00:00",
+        "name": "Raina Galore",
+        "position": "Second Base",
+        "team_id": 2
+    },
+    {
+        "id": 27,
+        "created_at": "2021-12-12T00:46:21.862463+00:00",
+        "name": "Reuben Meister",
+        "position": "Catcher",
+        "team_id": 1
+    },
+    {
+        "id": 35,
+        "created_at": "2021-12-12T00:50:50.62428+00:00",
+        "name": "Seymour Bridges",
+        "position": "Pitcher",
+        "team_id": 2
+    },
+    {
+        "id": 29,
+        "created_at": "2021-12-12T00:47:29.680167+00:00",
+        "name": "Tom Mattos",
+        "position": "Pitcher",
+        "team_id": 1
+    },
+    {
+        "id": 34,
+        "created_at": "2021-12-12T00:50:37.129326+00:00",
+        "name": "Vest Andbeardson",
+        "position": "Left Field",
+        "team_id": 2
+    },
+    {
+        "id": 43,
+        "created_at": "2021-12-12T02:57:41.339066+00:00",
+        "name": "sdfsfd",
+        "position": "sdfsd",
+        "team_id": 42
+    }
+]
