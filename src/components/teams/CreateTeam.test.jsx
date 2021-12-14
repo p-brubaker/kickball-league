@@ -3,7 +3,7 @@ import { MemoryRouter } from 'react-router'
 import CreateTeam from './CreateTeam'
 import { setupServer } from 'msw/node'
 import { rest } from 'msw'
-import userEvent from '@testing-library/user-event'
+import { userEvent } from '@testing-library/user-event'
 
 const mockTeam = {
     id: 10,
