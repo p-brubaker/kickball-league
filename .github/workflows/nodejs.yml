@@ -18,3 +18,5 @@ jobs:
             - run: npm test
               env:
                   CI: true
+                  REACT_APP_SUPABASE_KEY: jfksdjfkdsjfkhjhjk
+                  REACT_APP_SUPABASE_URL: 'https://paozlutduarjgvzaiduh.supabase.co'
