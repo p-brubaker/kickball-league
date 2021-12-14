@@ -3,7 +3,7 @@ import { MemoryRouter } from 'react-router-dom'
 import CreatePlayer from './CreatePlayer'
 import { setupServer } from 'msw/node'
 import { rest } from 'msw'
-import { userEvent } from '@testing-library/user-event'
+import userEvent from '@testing-library/user-event'
 
 const mockPlayer = {
     id: 10,
